@@ -1,0 +1,7 @@
+#using function
+import math      #importing math libriary
+def fact(n):
+    return(math.factorial(n))
+n=int(input('enter the number:'))
+f=fact(n)                            #calling function
+print('the factorial of given number is :',f)
