@@ -1,0 +1,21 @@
+#general method    
+import math
+n=int(input('enter the number:'))
+root=math.sqrt(n)
+if(root*root) == n:
+    print(n,'true')
+else:
+    print(n,'false')
+    
+    
+    
+    #using function   
+import math
+def perfectsquare(n):
+    root=math.sqrt(n)
+    return(root*root)==n 
+n=int(input('enter the number:'))
+if(perfectsquare(n)):   #calling function
+    print('true')
+else:
+    print('false') 
